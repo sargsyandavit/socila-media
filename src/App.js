@@ -2,7 +2,7 @@ import React from 'react';
 import PopUp from './components/PopUp/PopUp';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/PopUp/Header/Header';
+import { Header } from './components/PopUp/Header/Header';
 
 function App() { 
   return (
