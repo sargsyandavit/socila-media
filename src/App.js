@@ -2,10 +2,12 @@ import React from 'react';
 import PopUp from './components/PopUp/PopUp';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/PopUp/Header/Header';
 
 function App() { 
   return (
     <div className="App">
+      <Header />
       <PopUp />
       {[1,2,3,4].map(item => (
         <p>{item}</p>
